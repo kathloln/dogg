@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_alignParentBottom="true">
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            style="@style/rg_bottomtab"
+            android:drawableTop="@drawable/tab_home_selector"
+            android:text="首页"/>
+
+        <RadioButton
+            style="@style/rg_bottomtab"
+            android:drawableTop="@drawable/tab_cate_selector"
+            android:text="分类"/>
+
+        <RadioButton
+            style="@style/rg_bottomtab"
+            android:drawableTop="@drawable/tab_info_selector"
+            android:text="信息"/>
+
+        <RadioButton
+            style="@style/rg_bottomtab"
+            android:drawableTop="@drawable/tab_che_selector"
+            android:text="购物车"/>
+
+        <RadioButton
+            style="@style/rg_bottomtab"
+            android:drawableTop="@drawable/tab_my_selector"
+            android:text="我的"/>
+    </RadioGroup>
+</LinearLayout>

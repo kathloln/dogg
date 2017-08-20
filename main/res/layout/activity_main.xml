@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zzj.fragmenttab.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></FrameLayout>
+    <!--<fragment
+        android:name="com.example.zzj.fragmenttab.BaseFragment"
+        android:id="@+id/txt_content1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></fragment>-->
+    <fragment
+        android:name="com.example.zzj.fragmenttab.TabFragment"
+        android:id="@+id/rg_tab1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"></fragment>
+
+</LinearLayout>
